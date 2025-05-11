@@ -6,7 +6,7 @@ function changeTheme() {
   const selected = themeSelector.value;
   if (selected === 'dark') {
     body.classList.add('dark');
-    logo.src = 'byui-logo_white.png'; // Make sure this file exists
+    logo.src = 'byui-logo_white.png';
   } else {
     body.classList.remove('dark');
     logo.src = 'byui-logo_blue.webp';
