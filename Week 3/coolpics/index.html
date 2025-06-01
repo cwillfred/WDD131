@@ -15,8 +15,8 @@
 <body>
   <header>
     <h1>Cool Pics 📷</h1>
-    <button id="menuButton">Menu</button>
-    <nav id="mainNav">
+    <button id="menuButton" class="menu-button">Menu</button>
+    <nav id="mainNav" class="menu hide">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">People</a></li>
@@ -41,10 +41,12 @@
       <figure><img src="norris-sm.jpeg" alt="Gallery image 9"></figure>
     </section>
   </main>
-
   <footer>
     <p>&copy; 2023 Not a real site 😀</p>
   </footer>
+  <dialog id="viewer">
+    <img src="" alt="Enlarged gallery image" id="viewer-img">
+    <button class="close-viewer">X</button>
+  </dialog>
 </body>
 </html>
-
