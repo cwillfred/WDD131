@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background: #f5f5f5;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .card-container {
+    position: relative;
+    height: 220px;
+  }
+  
+  .card {
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    display: grid;
+    gap: 0.5rem;
+  }
+  
+  .front {
+    z-index: 2;
+  }
+  
+  .back {
+    top: 0;
+    z-index: 1;
+  }
+  
+  .expiration {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  button {
+    padding: 0.75rem;
+    border: none;
+    background-color: #0077cc;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .errorMsg {
+    color: red;
+    font-weight: bold;
+  }
+  
