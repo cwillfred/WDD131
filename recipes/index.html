@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Book</title>
+  <meta name="description" content="A collection of delicious and easy-to-follow recipes!" />
+
+  <!-- Social Media Meta -->
+  <meta property="og:title" content="Recipe Book" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Try out our delicious recipes for any occasion!" />
+  <meta property="og:image" content="images/recipe-book.png" />
+  <meta property="og:url" content="https://yourdomain.com/recipes/index.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="recipes.css" />
+  <script defer src="recipes.js"></script>
+</head>
+<body>
+  <header>
+    <img src="images/recipe-book.png" alt="Recipe Book Logo" />
+    <h1>My Recipe Book</h1>
+  </header>
+
+  <main>
+    <form class="search-form">
+      <label for="search" class="visually-hidden">Search Recipes</label>
+      <div class="search-wrapper">
+        <input type="text" id="search" name="search" placeholder="Search recipes..." />
+        <img src="images/search_icon.svg" alt="" aria-hidden="true" class="search-icon" />
+      </div>
+    </form>
+
+    <section id="recipes">
+      <!-- JavaScript will generate the recipe cards here -->
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates -->
+      <a href="#"><img src="images/instagram_icon.svg" alt="Instagram" /></a>
+      <a href="#"><img src="images/pinterest_icon.svg" alt="Pinterest" /></a>
+      <a href="#"><img src="images/youtube_icon.svg" alt="YouTube" /></a>
+    </div>
+    <p style="font-size: 0.6em;">
+      <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">
+        Recipe icons created by Freepik - Flaticon
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
