@@ -6,10 +6,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #feefdd;
-  --secondary-color: #ffaa8d;
-  --accent1-color: #ff4000;
-  --accent2-color: #50b2c0;
+  --primary-color: #ff4000;
+  --secondary-color: #50b2c0;
+  --accent1-color:  #feefdd ;
+  --accent2-color: #ffaa8d;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Funnel Sans";
